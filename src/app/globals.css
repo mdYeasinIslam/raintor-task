@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Sporting Grotesque';
+  src: url('/fonts/SportingGrotesque-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.heading {
+  font-family: 'Sporting Grotesque', sans-serif;
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
