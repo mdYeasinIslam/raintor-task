@@ -6,7 +6,7 @@ import { GrInstagram } from "react-icons/gr";
 
 export default function () {
   return (
-    <section className=" h-[500px]">
+    <section className=" h-full">
       <Image
         src="/herobg.png"
         alt="hero image"
@@ -14,8 +14,8 @@ export default function () {
         className=" absolute-0 w-full h-full z-0"
         priority
       />
-      <div className="container mx-auto relative pl-5 md:pl-12 z-10 mt-24 space-y-14">
-        <h1 className="flex  flex-col gap-4 md:gap-7 lg:gap-10 xl:gap-4 text-2xl md:text-4xl lg:text-6xl xl:text-[78px] font-semibold lg:leading-20 xl:leading-[126px] heading ">
+      <div className=" container mx-auto relative pl-5 md:pl-0 z-10 mt-24 space-y-14">
+        <h1 className="flex  flex-col gap-4 md:gap-7 lg:gap-10 xl:gap-4 text-2xl md:text-4xl lg:text-6xl xl:text-[78px] font-semibold lg:leading-20 xl:leading-[126px] heading md:pl-5 ">
           <span>
             Trusted{" "}
             <span className="bg-black m-0 p-0 text-white rounded-md px-2  ">
@@ -52,7 +52,7 @@ export default function () {
                 <GrInstagram className="w-7 h-7" />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/mohammad.yeasin.895788/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
