@@ -3,6 +3,7 @@ import React from "react";
 import { FaFacebook, FaTwitter } from "react-icons/fa";
 import { FiArrowRightCircle } from "react-icons/fi";
 import { GrInstagram } from "react-icons/gr";
+import Button from "../shared/Button";
 
 export default function () {
   return (
@@ -70,15 +71,7 @@ export default function () {
               Building the worlds best marketing websites for over a decade.{" "}
               Your trusted partner for strategy, design, and dev.
             </p>
-            <div>
-              <button className="flex items-center border border-gray-400 rounded-full px-4 py-2 bg-white hover:bg-gray-100 transition-colors heading">
-                <FiArrowRightCircle className="flex items-center justify-center w-8 h-8 rounded-full   mr-2" />
-
-                <span className="font-semibold text-gray-800">
-                  Schedule a Call
-                </span>
-              </button>
-            </div>
+            <Button title="Schedule a Call" icon="IoMdCall" />
           </div>
         </div>
       </div>

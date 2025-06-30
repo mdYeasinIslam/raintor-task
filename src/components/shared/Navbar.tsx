@@ -3,6 +3,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { FiArrowRightCircle, FiMenu, FiX } from "react-icons/fi";
+import Button from "./Button";
 
 export default function Navbar() {
   const [Open, setOpen] = useState(false);
@@ -17,10 +18,7 @@ export default function Navbar() {
   return (
     <nav className="relative container mx-auto flex items-center justify-between my-7 px-6">
       {/* Mobile: Menu Icon */}
-      <button
-        className="md:hidden text-3xl z-10"
-        onClick={() => setOpen(true)}
-      >
+      <button className="md:hidden text-3xl z-10" onClick={() => setOpen(true)}>
         <FiMenu />
       </button>
 
@@ -36,10 +34,7 @@ export default function Navbar() {
             <Link href={item.link}>{item.name}</Link>
           </li>
         ))}
-        <button className="flex items-center border border-gray-400 rounded-full px-4 py-2 bg-white hover:bg-gray-100 transition-colors">
-          <FiArrowRightCircle className="w-6 h-6 mr-2" />
-          <span className="font-semibold text-gray-800">Schedule a Call</span>
-        </button>
+        <Button title="Start Project" icon="FiArrowRightCircle" />
       </ul>
 
       {/* for mobile */}
