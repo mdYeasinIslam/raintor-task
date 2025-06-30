@@ -14,8 +14,8 @@ export default function () {
         className=" absolute-0 w-full h-full z-0"
         priority
       />
-      <div className="container mx-auto relative  pl-12 z-10 mt-24 space-y-14">
-        <h1 className="flex flex-col gap-7 lg:gap-10 xl:gap-4 text-4xl lg:text-6xl xl:text-[78px] font-semibold lg:leading-20 xl:leading-[126px] heading ">
+      <div className="container mx-auto relative pl-5 md:pl-12 z-10 mt-24 space-y-14">
+        <h1 className="flex  flex-col gap-4 md:gap-7 lg:gap-10 xl:gap-4 text-2xl md:text-4xl lg:text-6xl xl:text-[78px] font-semibold lg:leading-20 xl:leading-[126px] heading ">
           <span>
             Trusted{" "}
             <span className="bg-black m-0 p-0 text-white rounded-md px-2  ">
@@ -33,7 +33,7 @@ export default function () {
 
         <div className="flex">
           {/* content-1 */}
-          <div className="flex flex-row-reverse items-center ">
+          <div className="flex md:flex-row-reverse md:items-center pl-5 md:pl-0">
             <div className="flex flex-col items-center relative space-y-3">
               <a
                 href="https://twitter.com/williamrey"
@@ -65,7 +65,7 @@ export default function () {
             </span>
           </div>
           {/* content-2 */}
-          <div className="w-[60%] mx-auto flex flex-col justify-between">
+          <div className="md:w-[60%] mx-auto flex flex-col justify-between ">
             <p className="text-xl ">
               Building the worlds best marketing websites for over a decade.{" "}
               Your trusted partner for strategy, design, and dev.
