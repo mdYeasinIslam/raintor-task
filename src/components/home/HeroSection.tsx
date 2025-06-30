@@ -14,61 +14,71 @@ export default function () {
         className=" absolute-0 w-full h-full z-0"
         priority
       />
-      <div className="relative  pl-12 z-10 mt-24">
-        <h1 className=" text-[78px] font-semibold leading-[126px] heading ">
-          Trusted{" "}
-          <span className="bg-black m-0 p-0 text-white rounded-md px-2  ">Partner</span>{" "}
-          for 7 Your Website{" "}
-          <span className="bg-black text-white rounded-md px-2  ">Develop.</span>
+      <div className="container mx-auto relative  pl-12 z-10 mt-24 space-y-14">
+        <h1 className="flex flex-col gap-7 lg:gap-10 xl:gap-4 text-4xl lg:text-6xl xl:text-[78px] font-semibold lg:leading-20 xl:leading-[126px] heading ">
+          <span>
+            Trusted{" "}
+            <span className="bg-black m-0 p-0 text-white rounded-md px-2  ">
+              Partner
+            </span>{" "}
+            for
+          </span>
+          <span>
+            Your Website{" "}
+            <span className="bg-black text-white rounded-md px-2  ">
+              Develop.
+            </span>
+          </span>
         </h1>
 
-        <div className="flex items-start">
+        <div className="flex">
           {/* content-1 */}
           <div className="flex flex-row-reverse items-center ">
-            <div className="flex flex-col items-center relative ">
+            <div className="flex flex-col items-center relative space-y-3">
               <a
                 href="https://twitter.com/williamrey"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mb-4"
+                className=""
               >
-                <FaTwitter className="w-7 h-7"/>
+                <FaTwitter className="w-7 h-7" />
               </a>
               <a
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mb-4"
+                className=""
               >
-                <GrInstagram className="w-7 h-7"/>
+                <GrInstagram className="w-7 h-7" />
               </a>
               <a
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaFacebook className="w-7 h-7"/>
+                <FaFacebook className="w-7 h-7" />
               </a>
-            <div className="border-l border-black h-16 my-2"></div>
+              <div className="border-l border-black h-16 "></div>
             </div>
             <span className="translate-y-12  rotate-[-90deg] text-black font-medium text-md ">
               @williamrey
             </span>
           </div>
           {/* content-2 */}
-          <div className="w-[40%] mx-auto mt-12 space-y-10">
+          <div className="w-[60%] mx-auto flex flex-col justify-between">
             <p className="text-xl ">
               Building the worlds best marketing websites for over a decade.{" "}
-             
               Your trusted partner for strategy, design, and dev.
             </p>
-            <button className="flex items-center border border-gray-400 rounded-full px-4 py-2 bg-white hover:bg-gray-100 transition-colors heading">
-              <FiArrowRightCircle className="flex items-center justify-center w-8 h-8 rounded-full   mr-2" />
+            <div>
+              <button className="flex items-center border border-gray-400 rounded-full px-4 py-2 bg-white hover:bg-gray-100 transition-colors heading">
+                <FiArrowRightCircle className="flex items-center justify-center w-8 h-8 rounded-full   mr-2" />
 
-              <span className="font-semibold text-gray-800">
-                Schedule a Call
-              </span>
-            </button>
+                <span className="font-semibold text-gray-800">
+                  Schedule a Call
+                </span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
