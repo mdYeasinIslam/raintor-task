@@ -2,26 +2,26 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="  text-white  mt-8  flex flex-col justify-between p-5">
-      <div className="container mx-auto rounded-[40px] bg-black px-8 md:px-16 py-12 md:py-20">
-        <div className=" grid grid-cols-4 justify-between items-start">
+    <footer className="  text-white  mt-8  flex flex-col justify-between xl:p-5">
+      <div className="container mx-auto  xl:rounded-[40px] bg-black px-8 lg:px-16 py-12 md:py-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 justify-between items-center xl:items-start">
           <div className=''>
-            <span className="text-[#D4FF5A] font-extrabold text-3xl md:text-4xl tracking-tight leading-none">
+            <span className="text-[#D4FF5A] font-extrabold text-3xl xl:text-4xl tracking-tight leading-none">
               DEVLOP.ME
             </span>
           </div>
 
-          <div className="col-span-2 flex-1 flex justify-start">
-            <h1 className="text-[64px] md:text-[88px] font-bold text-center leading-none">
-              As you <span className="text-white">can</span>
+          <div className="xl:col-span-2 flex-1 flex justify-start">
+            <h1 className="text-[64px] xl::text-[88px] font-bold text-center leading-none">
+              As you can
             </h1>
           </div>
           <div className="w-[120px] md:w-[180px]" />
         </div>
 
-        <div className="mt-24 md:mt-32 grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-0 justify-between">
+        <div className="mt-16 xl:mt-32 grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-12 md:gap-10  justify-between">
           {/* Say hello & Call */}
-          <div></div>
+          <div className='hidden xl:block'></div>
           <div>
             <div>
               <span className="font-semibold text-gray-400 text-lg">
@@ -63,7 +63,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-between items-end mt-auto pt-16">
+        <div className="flex flex-col md:flex-row justify-between md:items-end mt-auto pt-16">
           {/* Left */}
           <span className="text-xl font-extrabold tracking-tight">BESNIK</span>
           {/* Center */}
