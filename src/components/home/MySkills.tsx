@@ -1,5 +1,4 @@
 import React from "react";
-import { BiDownArrowCircle } from "react-icons/bi";
 import SkillsCard from "./SkillsCard";
 import OuterArrowButton from "../shared/OuterArrowButton";
 

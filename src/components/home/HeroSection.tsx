@@ -4,7 +4,8 @@ import { FaFacebook, FaTwitter } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import Button from "../shared/Button";
 
-export default function () {
+
+function HeroSection() {
   return (
     <section className=" h-full">
       <Image
@@ -77,3 +78,5 @@ export default function () {
     </section>
   );
 }
+
+export default HeroSection

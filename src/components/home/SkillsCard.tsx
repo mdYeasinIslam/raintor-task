@@ -7,12 +7,7 @@ import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import { skillsData } from "../../../public/db/skillsJsonData";
 import SingleCard from "./SingleCard.";
 
-interface Skill {
-  id: number;
-  title: string;
-  description: string;
-  icon: React.ReactNode;
-}
+
 export default function SkillsSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);

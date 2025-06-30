@@ -1,4 +1,3 @@
-import { FiArrowRight } from "react-icons/fi";
 import { servicesData } from "../../../public/db/ServicesData";
 import SeviceSignleCard from "./SeviceSignleCard";
 
