@@ -4,7 +4,7 @@ import type React from "react";
 
 import { useState, useEffect, useRef } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import { skillsData } from "../../../public/db/skillsJsonData";
+import { skillsData } from "../../../public/db/skillsFakeData";
 import SingleCard from "./SingleCard.";
 
 

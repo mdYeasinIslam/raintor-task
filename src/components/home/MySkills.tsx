@@ -4,7 +4,7 @@ import OuterArrowButton from "../shared/OuterArrowButton";
 
 export default function MySkills() {
   return (
-    <section className="bg-white my-10 text-white p-1 md:p-5 heading">
+    <section className=" text-white px-1 md:px-5 heading">
       <div className="container mx-auto bg-black py-16 xl:py-20 px-4 lg:px-8 xl:px-16 rounded-xl space-y-8 xl:space-y-10">
         {<OuterArrowButton title="Why Choose Us" />}
         <div className="flex flex-col md:flex-row justify-between gap-5">

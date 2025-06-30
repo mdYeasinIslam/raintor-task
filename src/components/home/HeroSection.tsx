@@ -7,12 +7,12 @@ import Button from "../shared/Button";
 
 function HeroSection() {
   return (
-    <section className=" h-full">
+    <section className="min-h-full my-24 md:my-10 ">
       <Image
         src="/herobg.png"
         alt="hero image"
         fill
-        className=" absolute-0 w-full h-full z-0"
+        className=" absolute top-0 w-full h-full z-0 "
         priority
       />
       <div className=" container mx-auto relative pl-5 md:pl-0 z-10 mt-16 md:mt-24 space-y-14">

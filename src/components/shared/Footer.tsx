@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="  text-white  mt-8  flex flex-col justify-between xl:p-5">
-      <div className="container mx-auto  xl:rounded-[40px] bg-black px-8 lg:px-16 py-12 md:py-20">
+    <footer className=" bg-black text-white flex flex-col justify-between ">
+      <div className="container mx-auto    px-8 lg:px-16 py-12 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 justify-between items-center xl:items-start">
-          <div className=''>
+          <div className="">
             <span className="text-[#D4FF5A] font-extrabold text-3xl xl:text-4xl tracking-tight leading-none">
               DEVLOP.ME
             </span>
@@ -21,7 +21,7 @@ export default function Footer() {
 
         <div className="mt-16 xl:mt-32 grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-12 md:gap-10  justify-between">
           {/* Say hello & Call */}
-          <div className='hidden xl:block'></div>
+          <div className="hidden xl:block"></div>
           <div>
             <div>
               <span className="font-semibold text-gray-400 text-lg">

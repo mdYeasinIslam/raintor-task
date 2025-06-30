@@ -1,4 +1,4 @@
-import { servicesData } from "../../../public/db/ServicesData";
+import { servicesData } from "../../../public/db/FakeData";
 import SeviceSignleCard from "./SeviceSignleCard";
 
 

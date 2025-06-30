@@ -1,3 +1,4 @@
+import { Company } from "@/types/companyType";
 import { ServiceType } from "@/types/serviceType";
 
 export const servicesData: ServiceType[] = [
@@ -28,5 +29,28 @@ export const servicesData: ServiceType[] = [
     description:
       "Whether we've just finished designing your new site or you're handing off finished designs for us to develop in Webflow, we're here to apply our trusted development process to your project.",
     textColor: "text-gray-300",
+  },
+];
+export const companies:Company[] = [
+  { name: "awwwards", style: "bg-gray-900 text-white" },
+  {
+    name: "CSS WINNER",
+    style: "bg-white text-gray-900 border border-gray-300",
+  },
+  {
+    name: "thoughtworks",
+    style: "bg-white text-gray-900 border border-gray-300",
+  },
+  {
+    name: "facebook",
+    style: "bg-white text-gray-900 border border-gray-300",
+  },
+  {
+    name: "AUTODESK",
+    style: "bg-white text-gray-900 border border-gray-300",
+  },
+  {
+    name: "CSSDesignAwards",
+    style: "bg-white text-gray-900 border border-gray-300",
   },
 ];

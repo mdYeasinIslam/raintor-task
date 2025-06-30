@@ -41,3 +41,6 @@ export const skillsData:SkillType[] = [
     icon: <FaNodeJs className="w-16 h-16 text-lime-400" />,
   },
 ];
+
+
+
